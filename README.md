@@ -1,1 +1,1 @@
-puro echere
+# puro cechere
