@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ledger&display=swap" rel="stylesheet">
   {{ partial "head.html" . }}
 </head>
 <body>
@@ -11,6 +14,7 @@
     {{ block "main" . }}{{ end }}
   </main>
   <footer>
+    <div id="threejs-container-hello"></div>
     {{ partial "footer.html" . }}
   </footer>
 </body>
