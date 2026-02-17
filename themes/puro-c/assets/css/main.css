@@ -1,13 +1,37 @@
+@font-face {
+  font-family: 'Boxing-Regular';
+  src: url('/fonts/Boxing-Regular.otf') format('opentype');
+  font-display: swap;
+  letter-spacing: -2.88px;
+}
+
+@font-face {
+  font-family: 'PloniUBold';
+  src: url('/fonts/PloniUBold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   color: #222;
-  font-family: "Ledger", serif;
+  font-family: "Platypi", serif;
   line-height: 1.5;
   margin: 1rem;
   max-width: 768px;
 }
 
-header {
+a.title {
+  font-family: "Boxing-Regular";
+  text-align: center;
+  font-size: 96px;
+  color: black
+
+}
+
+h1, h2, h3, h4 {
   border-bottom: 1px solid #222;
+  font-family: "PloniUBold";
   margin-bottom: 1rem;
 }
 
