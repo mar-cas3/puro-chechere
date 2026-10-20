@@ -16,23 +16,33 @@
 body {
   color: #222;
   font-family: "Platypi", serif;
+  font-weight: lighter;
   line-height: 1.5;
   margin: 1rem;
   max-width: 768px;
+}
+
+div.title {
+  text-align: center;
 }
 
 a.title {
   font-family: "Boxing-Regular";
   text-align: center;
   font-size: 96px;
-  color: black
+  color: black;
+  line-height: 75px;
+}
 
+a.title > span {
+  color:#2E6AD8
 }
 
 h1, h2, h3, h4 {
   border-bottom: 1px solid #222;
   font-family: "PloniUBold";
   margin-bottom: 1rem;
+  color: #2E6AD8;
 }
 
 footer {
@@ -41,6 +51,24 @@ footer {
 }
 
 a {
-  color: #00e;
-  text-decoration: none;
+  text-decoration:  none;
+}
+
+nav ul {
+   list-style-type: none;
+    display: table;
+    width: 100%;
+    columns: black;
+}
+
+nav  ul li {
+  display: table-cell;
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  color: black;
+  font-family: 'PloniUBold';
 }
